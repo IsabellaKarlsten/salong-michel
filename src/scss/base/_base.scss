@@ -1,0 +1,25 @@
+@use '../tools/variables';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+p {
+    font-family: var(--font-serif);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-sans);
+}
